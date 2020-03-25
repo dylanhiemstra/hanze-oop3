@@ -9,6 +9,12 @@ public class Hex2Dec {
         }
     }
 
+    /**
+     * Parse hex string to decimal
+     *
+     * @param hex the hex string
+     * @return int
+     */
     public int hex2dec(String hex) {
         char[] chars = hex.toCharArray();
 
