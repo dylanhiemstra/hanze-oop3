@@ -1,0 +1,63 @@
+{
+  "arrivals": [
+  {
+    "time": "12:50",
+    "origin": "Calgary",
+    "flight": "9W 8823",
+    "gate": "D7"
+  },
+  {
+    "time": "12:55",
+    "origin": "Lisbon",
+    "flight": "UA 6851",
+    "gate": "B15"
+  },
+  {
+    "time": "13:00",
+    "origin": "Moscow",
+    "flight": "KL 3180",
+    "gate": "D27"
+  },
+  {
+    "time": "13:00",
+    "origin": "Detroit",
+    "flight": "DL 0137",
+    "gate": "D1"
+  },
+  {
+    "time": "13:00",
+    "origin": "Vancouver",
+    "flight": "9W 8821",
+    "gate": "E5"
+  },
+  {
+    "time": "13:00",
+    "origin": "Washington",
+    "flight": "KL 0651",
+    "gate": "E20"
+  },
+  {
+    "time": "13:00",
+    "origin": "Bristol",
+    "flight": "AF 6718",
+    "gate": "D6"
+  },
+  {
+    "time": "13:00",
+    "origin": "Gerona",
+    "flight": "HV 5765",
+    "gate": "C10"
+  },
+  {
+    "time": "13:05",
+    "origin": "Talinn",
+    "flight": "JP 7174",
+    "gate": "B13"
+  },
+  {
+    "time": "13:10",
+    "origin": "Kiev",
+    "flight": "PS 0102",
+    "gate": "D24"
+  }]
+}

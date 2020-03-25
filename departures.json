@@ -1,0 +1,63 @@
+{
+  "departures": [
+  {
+    "time": "15:30",
+    "destination": "Tehran",
+    "flight": "IR 0764",
+    "gate": "D24"
+  },
+  {
+    "time": "15:35",
+    "destination": "Marrakech",
+    "flight": "HV 5753",
+    "gate": "E6"
+  },
+  {
+    "time": "15:40",
+    "destination": "Vancouver",
+    "flight": "KL 0681",
+    "gate": "E2"
+  },
+  {
+    "time": "15:40",
+    "destination": "Osoka Kansai",
+    "flight": "KL 0867",
+    "gate": "F4"
+  },
+  {
+    "time": "15:40",
+    "destination": "Billund",
+    "flight": "AZ 3758",
+    "gate": "C9"
+  },
+  {
+    "time": "15:45",
+    "destination": "London Heathrow",
+    "flight": "KL 1021",
+    "gate": "D43"
+  },
+  {
+    "time": "15:45",
+    "destination": "Frankfurt",
+    "flight": "KL 1771",
+    "gate": "B16"
+  },
+  {
+    "time": "15:55",
+    "destination": "Preveza",
+    "flight": "HV 933",
+    "gate": "D77"
+  },
+  {
+    "time": "16:15",
+    "destination": "London City",
+    "flight": "BA 8454",
+    "gate": "D14"
+  },
+  {
+    "time": "16:15",
+    "destination": "Kuala Lumpur",
+    "flight": "MH 091",
+    "gate": "G4"
+  }]
+}

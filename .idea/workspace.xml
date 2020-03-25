@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f017483-d3de-4398-b1b7-c62e58a66639" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrivals.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/departures.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/JSON/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/JSON/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/JSON/json_simple-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/Scores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/chat/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4/chat/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4/Hex2Dec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/Hex2Dec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +54,29 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/week1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/week1" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/week1" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Hex2Dec">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.chat.Client" />
+      <module name="HanzeOOP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hex2Dec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week4.Hex2Dec" />
       <module name="HanzeOOP3" />
@@ -67,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.template.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.JSON.Main" />
       <module name="HanzeOOP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.template.*" />
+          <option name="PATTERN" value="week4.JSON.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.Iterator.Main" />
+    <configuration name="Scores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.Scores" />
       <module name="HanzeOOP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.Iterator.*" />
+          <option name="PATTERN" value="week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,25 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3.ATM.Main" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.chat.Server" />
       <module name="HanzeOOP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.ATM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.BetterStockExchange.StockExchange" />
-      <module name="HanzeOOP3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week2.BetterStockExchange.*" />
+          <option name="PATTERN" value="week4.chat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StockExchange" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Hex2Dec" />
+      <item itemvalue="Application.Scores" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Scores" />
         <item itemvalue="Application.Hex2Dec" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.StockExchange" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585158695061</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hex parser">
+      <created>1585158839713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585158839713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -228,30 +245,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="633" y="0" width="643" height="1078" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1583770778335" />
-    <state x="596" y="51" width="718" height="976" key="CommitChangelistDialog2" timestamp="1585158694947">
+    <state x="596" y="51" width="718" height="976" key="CommitChangelistDialog2" timestamp="1585158839580">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="596" y="51" width="718" height="976" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158694947" />
+    <state x="596" y="51" width="718" height="976" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158839580" />
     <state x="743" y="298" width="637" height="482" key="FileChooserDialogImpl" timestamp="1583242104709">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="298" width="637" height="482" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1583242104709" />
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1585158625408">
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom" timestamp="1585161258818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158625408" />
-    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1585158625408">
+    <state width="1878" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585161258818" />
+    <state width="1878" height="232" key="GridCell.Tab.0.center" timestamp="1585161258818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158625408" />
-    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1585158625408">
+    <state width="1878" height="232" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585161258818" />
+    <state width="1878" height="232" key="GridCell.Tab.0.left" timestamp="1585161258818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158625408" />
-    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1585158625408">
+    <state width="1878" height="232" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585161258818" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right" timestamp="1585161258818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="232" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158625408" />
+    <state width="1878" height="232" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585161258818" />
     <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1583246386823">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -272,10 +289,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="464" y="175" width="1024" height="843" key="SettingsEditor/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158798694" />
-    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1585141021722">
+    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1585158875951">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585141021722" />
+    <state x="555" y="272" width="800" height="534" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1585158875951" />
     <state x="628" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1585139358868">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
