@@ -18,14 +18,22 @@ class Game {
     private Player player1;
     private Player player2;
 
+    private Thread player1Thread;
+    private Thread player2Thread;
+
+    private int moves = 0;
+
     public Game() {
         player1 = new Player(this, "Player 1");
         player2 = new Player(this, "Player 2");
 
         turn = player1;
 
-        new Thread(player1).start();
-        new Thread(player2).start();
+        player1Thread = new Thread(player1);
+        player2Thread = new Thread(player2);
+
+        player1Thread.start();
+        player2Thread.start();
     }
 
     public void updateBoard() {
@@ -37,7 +45,17 @@ class Game {
             turn = player1;
         }
 
-        this.notifyAll();
+        moves++;
+
+        if(moves >= 6) {
+            System.out.println("Ending game");
+            player1Thread.interrupt();
+            player2Thread.interrupt();
+            System.out.println("Game ended");
+        } else {
+            notifyAll();
+        }
+
     }
 }
 
@@ -52,7 +70,7 @@ class Player implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
+        while (!Thread.interrupted()) {
             synchronized (game) {
                 if(game.turn == this) {
                     doTurn();
@@ -60,7 +78,7 @@ class Player implements Runnable {
                     try {
                         game.wait();
                     } catch (InterruptedException e) {
-                        e.printStackTrace();
+                        // e.printStackTrace();
                     }
                 }
             }
